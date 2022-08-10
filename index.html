@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html land="en-US">
-<head>
+<head> 
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
-</head>
-</html>
+  <title>Voting</title>
+</head> 
+
+<body>
+  <form>
+    <label for="age">Hi! We just need you to verify you are over the age of 18 before we show you the ballot to vote. What is your age?</label>
+    <input id="age" type="number">
+    <button type="submit">Submit!</button>
+  </form>
+  <div id="vote" class="hidden">
+    <h1>Here is your Ballot</h1>
+  </div>
+  <div id="under-18" class="hidden">
+    <h1>Sorry you can't vote</h1>
+    <p>You will have to wait until you are 18</p>
+  </div>
+</body>
+
+</html> 
